@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffd569;
+  background-size: cover;
+  padding: 30px;
+}
+h1 {
+  font-size: 30px;
+}
+span {
+  color: #ffd569;
+}
+.bg-card {
+  background-color: white;
+  background-size: cover;
+  padding: 30px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img {
+  width: 200px;
+}
+.card {
+}
+.sub-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: #007bff;
+  padding: 10px;
+  width: 100px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  margin: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding: 60px;
+  }
+  .bg-card {
+  }
+  .img {
+    width: 300px;
+    margin: 10px;
+  }
+  .card {
+    display: flex;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
